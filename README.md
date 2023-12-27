@@ -21,3 +21,7 @@ In terms of functions, we implemented the following queries:
 ![](http://www.yejunli.com/wp-content/uploads/minisql2.jpg)
 
 Our team got full marks for this project, and I got 100 from this course. HAHAHAHAHA..
+
+
+
+java -cp ./bin Interpreter
