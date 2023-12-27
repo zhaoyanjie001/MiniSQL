@@ -23,5 +23,5 @@ In terms of functions, we implemented the following queries:
 Our team got full marks for this project, and I got 100 from this course. HAHAHAHAHA..
 
 
-
+javac -d ./bin src/**/*.java -encoding gbk
 java -cp ./bin Interpreter
