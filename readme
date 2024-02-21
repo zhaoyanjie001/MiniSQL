@@ -1,1 +1,14 @@
 
+jar -cvf minisql.jar src/
+javac -classpath src/ src/*.java -encoding gbk
+# 进入target目录执行
+jar -cvf ext.jar com/
+# 在src目录下执行 将target目录下的class文件打包生成的ext.jar输出到target目录下 以下几种方式均可
+jar -cvf target/ext.jar -C target/ ./
+jar -cvf target/ext.jar -C target/ com/
+jar -cvf target/ext.jar -C target/ com/Index.class
+
+cd target && jar -cvf ext.jar ./
+cd target && jar -cvf ext.jar com/
+cd target && jar -cvf ext.jar com/Index.class
+
