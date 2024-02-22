@@ -24,5 +24,5 @@ Our team got full marks for this project, and I got 100 from this course. HAHAHA
 
 
 javac -d ./bin src/**/*.java -encoding gbk
-
+javac -d ./bin src/**/*.java src/*.java -encoding gbk
 java -cp ./bin Interpreter
